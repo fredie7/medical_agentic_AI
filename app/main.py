@@ -64,7 +64,11 @@ def load_documents():
         return load_documents.cached
 
     print("Loading and cleaning dataset...")
-    df = pd.read_csv("symptoms_data.csv")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(BASE_DIR, "symptoms_data.csv")
+    df = pd.read_csv(csv_path)
+
+    # df = pd.read_csv("symptoms_data.csv")
     dataset_columns = ['symptom', 'conditions', 'follow_up_questions']
 
     for col in dataset_columns:
