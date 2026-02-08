@@ -79,7 +79,7 @@ def load_documents():
 
     docs = [
         Document(
-            page_content=f"symptom: {row['symptom']}\nconditions: {', '.join(row['conditions'])}\nfollow_up: {'; '.join(row['follow_up_questions'])}",
+            page_content=f"symptom: {row['symptom']}\nconditions: {', '.join(row['conditions'])}\nfollow_up_questions: {'; '.join(row['follow_up_questions'])}",
             metadata={
                 "symptom": row['symptom'],
                 "conditions": row['conditions'],

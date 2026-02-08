@@ -1,0 +1,27 @@
+[
+    {
+        "param_relative_url": "v4/competitions/PL/standings",
+        "param_sink_folder": "standings",
+        "param_sink_file": "pl_standings.json"
+    },
+    {
+        "param_relative_url": "v4/competitions/PL/scorers",
+        "param_sink_folder": "scorers",
+        "param_sink_file": "pl_scorers.json"
+    },
+    {
+        "param_relative_url": "v4/competitions/PL/teams",
+        "param_sink_folder": "club_info",
+        "param_sink_file": "pl_club_info.json"
+    },
+    {
+        "param_relative_url": "v4/competitions/PL/teams",
+        "param_sink_folder": "player_details",
+        "param_sink_file": "pl_player_details.json"
+    },
+    {
+        "param_relative_url": "v4/competitions/PL/teams",
+        "param_sink_folder": "teams",
+        "param_sink_file": "pl_teams.json"
+    }
+]
